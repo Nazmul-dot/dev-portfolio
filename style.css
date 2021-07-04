@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.header-helf{
+    width: 50%;
+    padding-left: 3%;
+    margin-top: 40px;
+}
+h1{
+    font-size: 50px;
+}
+.myname{
+    color: orange;
+}
+.hireme{
+    text-decoration: none;
+    color: wheat;
+    background-image: linear-gradient(rgb(201, 62, 7),red);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.header-helf img{
+    height: 80%;
+    width: 80%;
+}
+
+.DREAM-BIG{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
