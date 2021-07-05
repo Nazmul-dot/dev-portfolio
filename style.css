@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-section{
+.flexible-content{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +38,34 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.expreience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-parent{
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+}
+
+.box-1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 4px;
+    border-left: 4px solid rgb(226, 104, 56);
+}
+
+footer{
+    
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(231, 217, 217,0.5);
 }
